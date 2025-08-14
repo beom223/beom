@@ -1,0 +1,93 @@
+/* Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.blue { color: #36b558; }
+.green { color: #B6FF87; }
+
+/* Intro text */
+.intro-text {
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+}
+
+/* Welcome Title */
+h2 {
+    padding: 20px;
+}
+
+/* Images row */
+.pictures-section {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+.pictures-section img {
+    width: 600px;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Mission */
+.blue-bg {
+    background-color: #36b558;
+    color: black;  
+    padding: 20px;
+}
+
+/* About + Contact */
+.about-contact {
+    display: flex;
+}
+.grey-bg {              
+    background-color: #c2cc2f;     /*About color*/
+    flex: 1;
+    padding: 40px;
+}
+.green-bg {
+    background-color: #B6FF87;     /*Contact color*/
+    flex: 1;
+    padding: 40px;
+}
+.green-bg input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+}
+.green-bg button {
+    margin-top: 10px;
+    padding: 8px 15px;
+}
+
+/* Dashboard */
+.dashboard {
+    padding: 40px;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 14px;
+    color: gray;
+}
